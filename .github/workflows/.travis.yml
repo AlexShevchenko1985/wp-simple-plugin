@@ -1,7 +1,4 @@
-sudo: false
-dist: trusty
-
-language: php
+name: PHP Matrix Testing for WordPress Plugins
 
 on:
   push:
