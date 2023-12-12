@@ -3,14 +3,10 @@ dist: trusty
 
 language: php
 
-branches:
-  only:
-    - master
-
-cache:
-  directories:
-    - vendor
-    - $HOME/.composer/cache
+on:
+  push:
+    branches:
+      - main
 
 matrix:
   include:
